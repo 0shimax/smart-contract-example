@@ -1,0 +1,39 @@
+# geth install
+https://geth.ethereum.org/docs/install-and-build/installing-geth#install-on-ubuntu-via-ppas
+
+# truffle install
+https://github.com/trufflesuite/truffle
+
+# ganache cli install
+https://github.com/trufflesuite/ganache
+
+# geth cmd
+https://geth.ethereum.org/docs/getting-started
+
+# launch ganach server
+npx ganache-cli -d -p 8545
+or
+ganache-cli --host=0.0.0.0 --db=/var/ganache --mnemonic="pillows andymori al tomoyuki spitz abc quruli whoops fukurouz air bluehearts highlows" --networkId=5777}
+
+# before launch truffle client
+- MetaMaskの設定で`show test network`をする
+- その後ネットワークを`localhost 8545`に切り替える
+- そして`npm run start`
+
+# goerli faucet
+https://github.com/goerli/testnet <- ここでfaucet確認して使えるやつを使う
+
+# create local waret
+- $ cd greeter/client
+- $ npm install truffle-hdwallet-provider --save-dev
+- export MNEMONIC="xxxxxx"
+
+
+# use rinkeby network
+## in https://infura.io/
+- export INFURA_PROJECT_ID=xxxxxx
+
+
+# unbox react
+- $ npx truffle unbox react
+

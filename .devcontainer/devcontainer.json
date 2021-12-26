@@ -1,0 +1,17 @@
+{
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "smart-contract",
+    "workspaceFolder": "/smart-contract",
+    "settings": {
+      "editor.formatOnSave": true
+    },
+    "extensions": [
+      "ms-azuretools.vscode-docker",
+      "coenraads.bracket-pair-colorizer-2",
+      "mechatroner.rainbow-csv",
+      "ionutvmi.path-autocomplete",
+      "esbenp.prettier-vscode",
+      "eamodio.gitlens",
+      "donjayamanne.githistory",
+    ],
+  }

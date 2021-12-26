@@ -1,0 +1,16 @@
+version: "3"
+services:
+  smart-contract:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      # args:
+      #   GCE_ACCOUNT_EMAIL: $GCE_ACCOUNT_EMAIL
+      #   GCE_PROJECT_ID: $GCE_PROJECT_ID
+    command: sleep infinity
+    ports:
+      - 5000:8080
+      - 5001:8546
+    volumes:
+      - ~/dev/smart-contract:/smart-contract
+      - ~/data:/data
